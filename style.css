@@ -1,0 +1,579 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif, Arial, Helvetica;
+}
+:root {
+  --main-color: #993333;
+  --second-color: #ffffff;
+  --gray: #f8f9fa;
+  --green: #009999;
+  --gray-text: #757575;
+}
+body {
+  background-color: var(--gray);
+}
+/*=========Section one Style======*/
+.section-one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 30px 6%;
+  box-orient: vertical;
+}
+.red-background {
+  background-color: var(--main-color);
+}
+.white-background {
+  background-color: white;
+}
+.centering-elements {
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+/*----Firs Window-----*/
+.Window-one {
+  width: 50%;
+  height: 400px;
+  box-ordinal-group: 1;
+}
+.Window-one h1 {
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+/*----Second Window-----*/
+.Window-two {
+  width: 50%;
+  height: 400px;
+  padding: 100px 50px;
+  box-ordinal-group: 2;
+}
+.Window-two q {
+  color: #757575;
+  font-size: 1.35rem;
+  font-style: italic;
+  line-height: 1.8;
+  font-weight: 600;
+  background-color: inherit;
+}
+
+/*----Third Window-----*/
+.Window-three {
+  display: flex;
+  padding: 80px 60px;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50%;
+  height: 400px;
+  position: relative;
+  box-ordinal-group: 3;
+}
+.Window-three h2 {
+  color: var(--main-color);
+  background-color: inherit;
+  font-family: inherit;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 30px 0;
+}
+.Window-three p {
+  background-color: inherit;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #666666;
+}
+.Window-three a {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  text-transform: uppercase;
+  padding: 12px 47px;
+  font-size: 1.15rem;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  color: white;
+  line-height: 1.5;
+}
+.Window-three a:hover {
+  background-color: #ec4949;
+}
+/*----Fourth Window-----*/
+
+.Window-four {
+  width: 50%;
+  height: 400px;
+  box-ordinal-group: 4;
+}
+.Window-four img {
+  border-radius: 50%;
+}
+.Window-four p {
+  background-color: inherit;
+  color: #fff;
+  padding: 20px 10%;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+/*----Fifth Window-----*/
+.fifth-Window {
+  background-image: url(/imgs/image-01.jpg);
+  background-position: center center;
+  width: 50%;
+  height: 400px;
+  box-ordinal-group: 5;
+}
+/*----Sixth Window-----*/
+.sixth-window {
+  width: 50%;
+  height: 400px;
+  box-ordinal-group: 6;
+}
+.sixth-window h1 {
+  color: #757575;
+  background-color: inherit;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+.sixth-window p {
+  background-color: inherit;
+  padding: 0 10%;
+  color: #666666;
+  line-height: 2.2;
+  font-size: 18px;
+}
+.sixth-window p a {
+  background-color: inherit;
+  color: #007bff;
+}
+.sixth-window .btn {
+  text-transform: uppercase;
+  padding: 12px 47px;
+  font-size: 1.15rem;
+  display: block;
+  white-space: nowrap;
+  color: white;
+  line-height: 1.5;
+}
+.sixth-window .btn:hover {
+  background-color: #ec4949;
+}
+/*========End Section one=========*/
+/*=========Section two Style======*/
+.section-two {
+  min-height: 600px;
+  margin: 30px 6%;
+  display: flex;
+  height: 700px;
+  background-color: var(--second-color);
+  margin: 30px 6%;
+}
+.section-two .pic-info {
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px;
+  position: relative;
+}
+.section-two .pic-info h1 {
+  color: var(--main-color);
+  font-family: inherit;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 30px 0;
+}
+.section-two .pic-info p {
+  line-height: 1.8;
+  font-size: 18px;
+  color: #666666;
+  padding-bottom: 30px;
+}
+.section-two a {
+  text-transform: uppercase;
+  padding: 12px 40px;
+  font-size: 1.15rem;
+  color: white;
+  line-height: 1.5;
+  display: block;
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  right: 12%;
+}
+.section-two a:hover {
+  background-color: #ec4949;
+}
+.main-img {
+  height: 100%;
+}
+
+.section-two img {
+  width: 100%;
+  height: 100%;
+}
+/*=======End Section two==========*/
+/*=======Start Section Three==========*/
+.section-three {
+  display: flex;
+  height: 620px;
+  margin: 30px 6%;
+  background-color: var(--second-color);
+}
+.section-three .sec-img {
+  width: 40%;
+  height: 100%;
+  background-image: url(/imgs/image-03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.section-three .prices {
+  display: flex;
+  width: 100%;
+  background-color: var(--second-color);
+}
+.section-three .standard-plan {
+  width: 50%;
+  border: 2px solid var(--green);
+  margin: 30px;
+}
+.section-three .price-type {
+  background-color: var(--green);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.section-three .advenced-plan {
+  width: 50%;
+  border: 2px solid var(--green);
+  margin: 30px;
+}
+.price-info p {
+  color: #787878;
+  margin: 35px;
+  font-size: 20px;
+  line-height: 50px;
+}
+.prices a {
+  background-color: var(--green);
+  border-radius: 0;
+  text-transform: uppercase;
+  padding: 12px 47px;
+  font-size: 1.15rem;
+  color: white;
+  align-items: center;
+  display: block;
+  width: 190px;
+  margin: auto;
+}
+.prices a:hover {
+  background-color: #24d4d4;
+}
+
+/*=======End Section Three==========*/
+/*=======Start Section Four==========*/
+.section-four {
+  height: max-content;
+  margin: 30px 6%;
+  position: relative;
+}
+.section-four .sec-title {
+  width: 100%;
+  height: 150px;
+  background-color: var(--main-color);
+  margin-bottom: 380px;
+}
+.section-four .sec-title h1 {
+  color: var(--second-color);
+  margin-left: 80px;
+  padding: 50px 0 0 80px;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+/* Section Four Form Style */
+.section-four .form-content {
+  width: 70%;
+  background-color: var(--second-color);
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  top: 45%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  /* position: absolute;
+  left: 160px; */
+}
+.section-four .form-content form {
+  display: flex;
+  width: 100%;
+  padding: 10%;
+  position: relative;
+}
+/* First Group Style */
+.form-content .first-group {
+  width: 50%;
+  margin: 0 10px 0 10px;
+}
+.form-content .first-group input[type="text"],
+.first-group select {
+  display: inline-block;
+  height: 60px;
+  width: 100%;
+  color: var(--gray-text);
+  font-size: 1.2rem;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.form-content .first-group input[type="text"]:focus,
+.first-group select:focus,
+.second-group textarea:focus {
+  outline: none !important;
+  border: 1px solid var(--main-color);
+  box-shadow: 0px 0px 5px 1px var(--main-color);
+}
+/* Second Group Style */
+.second-group {
+  width: 50%;
+  margin: 0 20px;
+  color: var(--gray-text);
+  font-size: 1.2rem;
+}
+.second-group label {
+  margin-right: 15%;
+}
+.second-group input {
+  margin-right: 5px;
+}
+.second-group textarea {
+  display: block;
+  width: 100%;
+  color: var(--gray-text);
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+/* botten Style */
+
+.section-four button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--main-color);
+  text-transform: uppercase;
+  padding: 12px 47px;
+  font-size: 1.15rem;
+  color: white;
+  line-height: 1.5;
+  display: block;
+  width: 200px;
+  height: 50px;
+  border: none;
+}
+.section-four button:hover {
+  background-color: #ec4949;
+}
+/* Section Footer Style */
+.section-four .section-footer {
+  width: 100%;
+  color: var(--second-color);
+  background-color: #666666;
+  height: 300px;
+  padding-top: 10%;
+}
+.section-four .section-footer address {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section-four .section-footer span {
+  display: block;
+  font-size: 15px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/*=======End Section Four==========*/
+/*=======Start Footer==========*/
+footer {
+  margin: 0 auto;
+  /* margin-top: 230px; */
+  padding-bottom: 50px;
+  width: fit-content;
+  color: var(--gray-text);
+}
+footer span {
+  border-left: 2px solid var(--gray-text);
+  padding-left: 3px;
+}
+footer a {
+  cursor: pointer;
+  color: inherit;
+}
+/*=======End Footer==========*/
+/* ==========================Media queries=================== */
+/* ===Min Width 992px=======*/
+@media (max-width: 992px) {
+  /* section one */
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Window-one {
+    order: 1;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Window-two {
+    height: 200px;
+    order: 2;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Window-three {
+    order: 4;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Window-four {
+    order: 3;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .fifth-Window {
+    order: 5;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sixth-window {
+    order: 6;
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* section Two */
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding: 0 50px;
+    position: relative;
+  }
+
+  .section-two a {
+    position: absolute;
+    left: 40%;
+  }
+
+  .section-two .main-img img {
+    margin-top: 120px;
+    height: 100%;
+  }
+  /* section Three */
+  .section-three {
+    display: block;
+    padding: 0 50px;
+    height: max-content;
+  }
+  .section-three .sec-img {
+    width: 100%;
+    display: block;
+    padding: 0 50px;
+    height: 1000px;
+  }
+  .section-three .prices .standard-plan {
+    margin: 30px 30px 30px 0;
+  }
+  .section-three .advenced-plan {
+    margin: 30px 0 30px 30px;
+  }
+  /* section Four */
+  .section-four label {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  /*------- Section three-------- */
+  .section-three .prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section-three .prices .standard-plan,
+  .section-three .advenced-plan {
+    width: 75%;
+    margin: 20px auto;
+  }
+  /* ----------Section Four ------*/
+  .section-four .form-content {
+    margin: 0 auto;
+  }
+  .section-four form {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+  .section-four .form-content {
+    margin-top: -20px;
+    height: max-content;
+    width: 90%;
+  }
+  .section-four .form-content .first-group {
+    flex: none;
+    display: block;
+    width: 100%;
+  }
+  .section-four .form-content .second-group {
+    width: 100%;
+  }
+  .section-four .sec-title {
+    margin-bottom: 620px;
+  }
+  .section-four .sec-title h1 {
+    margin-left: 0;
+    padding: 50px 0 0px 43px;
+  }
+  .second-group textarea {
+    margin-bottom: 50px;
+  }
+  .section-four .section-footer address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-four .section-footer address div {
+    margin-top: 10px;
+  }
+  /* --------footer --------- */
+  footer {
+    margin: 0 auto;
+  }
+  footer a {
+    display: block;
+    text-align: center;
+  }
+}
