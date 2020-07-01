@@ -130,7 +130,7 @@ body {
 }
 /*----Fifth Window-----*/
 .fifth-Window {
-  background-image: url(./imgs/image-01.jpg);
+  background-image: url(imgs/image-01.jpg);
   background-position: center center;
   width: 50%;
   height: 400px;
