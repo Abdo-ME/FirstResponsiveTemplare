@@ -578,17 +578,25 @@ footer a {
   }
 }
 @media (max-width: 450px) {
-  .section-one q {
+   .section-one .Window-one h1 {
+
+    font-size: 3.2rem;
+  }
+  .section-one q,
+  .section-one p {
     font-size: 1rem;
   }
   .section-one .Window-three {
     padding: 10px 20px;
   }
+  .section-one .sixth-window h1 {
+
+    font-size: 1.4rem;
+  }
   .section-two {
     padding: 10% 5%;
   }
-   .section-two .pic-info {
-
+  .section-two .pic-info {
     padding: 0;
   }
   .section-two a {
