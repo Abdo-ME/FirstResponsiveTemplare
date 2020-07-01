@@ -578,7 +578,7 @@ footer a {
   }
 }
 @media (max-width: 450px) {
-  .section-one p {
+  .section-one q {
     font-size: 1rem;
   }
   .section-one .Window-three {
@@ -586,6 +586,10 @@ footer a {
   }
   .section-two {
     padding: 10% 5%;
+  }
+   .section-two .pic-info {
+
+    padding: 0;
   }
   .section-two a {
     position: absolute;
